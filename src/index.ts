@@ -8,7 +8,7 @@ import {
 import { z } from "zod";
 
 const API_BASE =
-  process.env.PALAVIR_COMPLIANCE_API_BASE ?? "https://compliance-api-jet.vercel.app";
+  process.env.PALAVIR_COMPLIANCE_API_BASE ?? "https://federal-exclusion-sanctions-screener.p.rapidapi.com";
 const API_KEY = process.env.PALAVIR_COMPLIANCE_API_KEY ?? "";
 
 if (!API_KEY) {

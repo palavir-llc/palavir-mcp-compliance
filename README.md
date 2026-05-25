@@ -80,12 +80,12 @@ screen_entity({ name: "Robert Smith", npi: "1234567890", state: "TX" })
 
 ## Data freshness
 
-| Database | Refresh cadence | Records |
+| Database | Refresh cadence | Records (as of 2026-05-25) |
 |---|---|---|
-| LEIE | Monthly (OIG publishes) | ~80K |
-| OFAC SDN | Daily | ~17K |
-| SAM.gov | Daily | ~170K |
-| State Medicaid | Monthly | varies |
+| LEIE | Monthly (OIG publishes) | 83,256 |
+| OFAC SDN | Daily | 19,050 |
+| SAM.gov exclusion | Daily | 10,000+ |
+| State Medicaid | Monthly | 543 NPIs across active states |
 
 ## License
 

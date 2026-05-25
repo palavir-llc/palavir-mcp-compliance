@@ -1,0 +1,47 @@
+{
+  "name": "@palavir/mcp-compliance",
+  "version": "0.1.0",
+  "description": "MCP server for Palavir Compliance API — screen individuals and entities against LEIE, OFAC SDN, and SAM.gov exclusion databases.",
+  "license": "MIT",
+  "author": "Palavir LLC <josh@palavir.co>",
+  "homepage": "https://palavir.co/exclusion-screening",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/palavir-llc/palavir-mcp-compliance"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "compliance",
+    "ofac",
+    "sanctions",
+    "leie",
+    "sam",
+    "exclusion",
+    "kyc",
+    "due-diligence",
+    "palavir"
+  ],
+  "type": "module",
+  "bin": {
+    "palavir-mcp-compliance": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0"
+  }
+}

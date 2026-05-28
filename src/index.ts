@@ -78,7 +78,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
       name: "screen_batch",
       description:
         "Screen up to 100 entities in a single call against LEIE, OFAC SDN, and SAM.gov. " +
-        "Returns per-entity results plus a summary count. Each entity counts as 1 request against quota.",
+        "Returns per-entity results plus a summary count. One HTTP request per batch (counts as 1 against the RapidAPI quota today regardless of batch size; per-entity metering may change on future plans).",
       inputSchema: {
         type: "object",
         properties: {

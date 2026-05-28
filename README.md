@@ -14,7 +14,7 @@ Screen individuals and entities against three federal exclusion databases — **
 | **Ultra** | $299 | 50,000 | Mid-market platform, multi-product KYC, scaled vendor risk |
 | **Enterprise** | $999 | 250,000 | KYC SaaS subprocessor, large lender, gov contractor |
 
-Subscribe at the [RapidAPI listing](https://rapidapi.com/palavir-palavir-default/api/federal-exclusion-sanctions-screener) to get your API key.
+Subscribe at the [RapidAPI listing](https://rapidapi.com/josh-BN5mWmPiY/api/federal-exclusion-sanctions-screener) to get your API key.
 
 ## Use cases
 
@@ -113,4 +113,4 @@ MIT for the MCP server code. The underlying Compliance API requires a RapidAPI s
 
 - Issues: https://github.com/palavir-llc/palavir-mcp-compliance/issues
 - Email: josh@palavir.co
-- Listing: https://rapidapi.com/palavir-palavir-default/api/federal-exclusion-sanctions-screener
+- Listing: https://rapidapi.com/josh-BN5mWmPiY/api/federal-exclusion-sanctions-screener

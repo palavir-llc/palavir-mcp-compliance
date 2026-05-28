@@ -7,7 +7,7 @@ const API_BASE = process.env.PALAVIR_COMPLIANCE_API_BASE ?? "https://federal-exc
 const API_KEY = process.env.PALAVIR_COMPLIANCE_API_KEY ?? "";
 if (!API_KEY) {
     console.error("[palavir-mcp-compliance] Missing PALAVIR_COMPLIANCE_API_KEY. " +
-        "Get a key at https://rapidapi.com/palavir-palavir-default/api/federal-exclusion-sanctions-screener " +
+        "Get a key at https://rapidapi.com/josh-BN5mWmPiY/api/federal-exclusion-sanctions-screener " +
         "and set it in the env.");
 }
 const ScreenEntitySchema = z.object({
@@ -38,7 +38,7 @@ async function callApi(path, init = {}) {
     }
     return res.json();
 }
-const server = new Server({ name: "palavir-compliance", version: "0.1.0" }, { capabilities: { tools: {} } });
+const server = new Server({ name: "palavir-compliance", version: "0.1.1" }, { capabilities: { tools: {} } });
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
     tools: [
         {

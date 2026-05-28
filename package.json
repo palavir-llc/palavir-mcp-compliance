@@ -1,6 +1,6 @@
 {
   "name": "@palavir/mcp-compliance",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for Palavir Compliance API, screen individuals and entities against LEIE, OFAC SDN, and SAM.gov exclusion databases.",
   "license": "MIT",
   "author": "Palavir LLC <josh@palavir.co>",
